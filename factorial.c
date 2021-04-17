@@ -7,11 +7,13 @@
  * @return calculated result of n!
  */
 int factorial (int n) {
-    // ADD CODE HERE
-    return 0; // EDIT THIS
+    int i=0;
+  int prod=1;
+  for (i=n;i>=1;i++) {
+     prod = prod * i;
+  }
+  return prod;
 }
-
-
 
 int main(void) {
 
